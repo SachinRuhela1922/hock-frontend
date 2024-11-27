@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body {
+    width: 100vw;
+    height: 160vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.head {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.head .subhead {
+    color: blue;
+    font-weight: 700;
+
+}
+
+.intro {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px;
+    color: #0000009f;
+    line-height: 20px;
+}
+
+.head2 {
+    font-size: 22px;
+    font-weight: 900;
+
+}
+
+.benefits {
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.form {
+    padding: 20px;
+    width: 50%;
+    height: 90%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #222831;
+}
+
+.h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.format {
+    width: 100%;
+
+}
+
+.label {
+    font-size: 20px;
+    color: #fff;
+}
+
+.input {
+    border: 0;
+    outline: 0;
+    width: 60%;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #0000008c;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+
+    &::placeholder {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.466);
+    }
+
+}
+
+.btn {
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    display: flex;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
